@@ -14,6 +14,8 @@
 		406968FA204F847400E1AC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406968F9204F847400E1AC3A /* Assets.xcassets */; };
 		406968FD204F847400E1AC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406968FB204F847400E1AC3A /* LaunchScreen.storyboard */; };
 		40696908204F847500E1AC3A /* DDNAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40696907204F847500E1AC3A /* DDNAppTests.swift */; };
+		E2D617CA386A2828F1AB7A54 /* Pods_DDNAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A3DDEDF6BD1636662EE256 /* Pods_DDNAppTests.framework */; };
+		FF7D155D6CD5A8B1E79C1DE6 /* Pods_DDNApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110E3DFD3A130B770F9F4AA9 /* Pods_DDNApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110E3DFD3A130B770F9F4AA9 /* Pods_DDNApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDNApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE9DA284D5703C912C9E5A8 /* Pods-DDNAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDNAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDNAppTests/Pods-DDNAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		406968ED204F847400E1AC3A /* DDNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406968F0204F847400E1AC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406968F2204F847400E1AC3A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		40696903204F847500E1AC3A /* DDNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40696907204F847500E1AC3A /* DDNAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDNAppTests.swift; sourceTree = "<group>"; };
 		40696909204F847500E1AC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5CBEED3873A386067E8F48 /* Pods-DDNAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDNAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDNAppTests/Pods-DDNAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BFD724F7F8C314B0EC011D6 /* Pods-DDNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDNApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDNApp/Pods-DDNApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A79F4454538E629A5DCF6733 /* Pods-DDNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDNApp/Pods-DDNApp.release.xcconfig"; sourceTree = "<group>"; };
+		E4A3DDEDF6BD1636662EE256 /* Pods_DDNAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDNAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7D155D6CD5A8B1E79C1DE6 /* Pods_DDNApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D617CA386A2828F1AB7A54 /* Pods_DDNAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40591327204F856000790A19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406968F9204F847400E1AC3A /* Assets.xcassets */,
+				406968FB204F847400E1AC3A /* LaunchScreen.storyboard */,
+				406968FE204F847500E1AC3A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		406968E4204F847400E1AC3A = {
 			isa = PBXGroup;
 			children = (
 				406968EF204F847400E1AC3A /* DDNApp */,
 				40696906204F847500E1AC3A /* DDNAppTests */,
 				406968EE204F847400E1AC3A /* Products */,
+				43AAB568F28E43ED9FA40C7C /* Pods */,
+				4D5B81B2AD876F03FE4414D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +105,7 @@
 				406968F2204F847400E1AC3A /* FirstViewController.swift */,
 				406968F4204F847400E1AC3A /* SecondViewController.swift */,
 				406968F6204F847400E1AC3A /* Main.storyboard */,
-				406968F9204F847400E1AC3A /* Assets.xcassets */,
-				406968FB204F847400E1AC3A /* LaunchScreen.storyboard */,
-				406968FE204F847500E1AC3A /* Info.plist */,
+				40591327204F856000790A19 /* Supporting Files */,
 			);
 			path = DDNApp;
 			sourceTree = "<group>";
@@ -99,6 +119,26 @@
 			path = DDNAppTests;
 			sourceTree = "<group>";
 		};
+		43AAB568F28E43ED9FA40C7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD724F7F8C314B0EC011D6 /* Pods-DDNApp.debug.xcconfig */,
+				A79F4454538E629A5DCF6733 /* Pods-DDNApp.release.xcconfig */,
+				3DE9DA284D5703C912C9E5A8 /* Pods-DDNAppTests.debug.xcconfig */,
+				7D5CBEED3873A386067E8F48 /* Pods-DDNAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D5B81B2AD876F03FE4414D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110E3DFD3A130B770F9F4AA9 /* Pods_DDNApp.framework */,
+				E4A3DDEDF6BD1636662EE256 /* Pods_DDNAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +146,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4069690C204F847500E1AC3A /* Build configuration list for PBXNativeTarget "DDNApp" */;
 			buildPhases = (
+				18D6E4DA425644A530EE61BA /* [CP] Check Pods Manifest.lock */,
 				406968E9204F847400E1AC3A /* Sources */,
 				406968EA204F847400E1AC3A /* Frameworks */,
 				406968EB204F847400E1AC3A /* Resources */,
+				AC5B816E5D9B97E74181BDB7 /* [CP] Embed Pods Frameworks */,
+				8F1E732F25A777FE053DD31C /* [CP] Copy Pods Resources */,
+				40E5DE50204F853900E5E04D /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -123,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4069690F204F847500E1AC3A /* Build configuration list for PBXNativeTarget "DDNAppTests" */;
 			buildPhases = (
+				4BC4B2DA01578EB1593FD615 /* [CP] Check Pods Manifest.lock */,
 				406968FF204F847500E1AC3A /* Sources */,
 				40696900204F847500E1AC3A /* Frameworks */,
 				40696901204F847500E1AC3A /* Resources */,
+				850C7C9263BF4E2096B98AF8 /* [CP] Embed Pods Frameworks */,
+				225D89E3535986C499A4D799 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +243,119 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18D6E4DA425644A530EE61BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDNApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		225D89E3535986C499A4D799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDNAppTests/Pods-DDNAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E5DE50204F853900E5E04D /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		4BC4B2DA01578EB1593FD615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDNAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850C7C9263BF4E2096B98AF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDNAppTests/Pods-DDNAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1E732F25A777FE053DD31C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDNApp/Pods-DDNApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5B816E5D9B97E74181BDB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDNApp/Pods-DDNApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		406968E9204F847400E1AC3A /* Sources */ = {
@@ -355,11 +515,13 @@
 		};
 		4069690D204F847500E1AC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFD724F7F8C314B0EC011D6 /* Pods-DDNApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z7UYP6FP8;
-				INFOPLIST_FILE = DDNApp/Info.plist;
+				INFOPLIST_FILE = "DDNApp/Supporting\\ Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddnetwork.DDNApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,11 +532,13 @@
 		};
 		4069690E204F847500E1AC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79F4454538E629A5DCF6733 /* Pods-DDNApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z7UYP6FP8;
-				INFOPLIST_FILE = DDNApp/Info.plist;
+				INFOPLIST_FILE = "DDNApp/Supporting\\ Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddnetwork.DDNApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +549,7 @@
 		};
 		40696910204F847500E1AC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE9DA284D5703C912C9E5A8 /* Pods-DDNAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +567,7 @@
 		};
 		40696911204F847500E1AC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5CBEED3873A386067E8F48 /* Pods-DDNAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

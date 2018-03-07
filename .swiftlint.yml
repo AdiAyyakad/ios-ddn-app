@@ -1,0 +1,30 @@
+included:
+  - DDNApp
+
+excluded:
+  - Pods
+  - DDNAppTests
+
+disabled_rules:
+  - cyclomatic_complexity
+  - line_length
+  - redundant_string_enum_value
+  - todo
+  - type_name
+  - identifier_name
+
+file_length:
+  warning: 1000
+
+function_body_length:
+  - 100
+
+maxEmptyLines: 2
+
+custom_rules:
+  optional_try:
+    included: ".*\\.swift"
+    name: "Optional Try"
+    regex: "(try[!,?])"
+    message: "You should wrap a `try` in a `do/catch` loop rather than forcibly or optionally attempting it."
+    severity: error

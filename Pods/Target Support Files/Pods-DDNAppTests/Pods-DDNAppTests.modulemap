@@ -1,0 +1,6 @@
+framework module Pods_DDNAppTests {
+  umbrella header "Pods-DDNAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
