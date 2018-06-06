@@ -6,6 +6,7 @@ target 'DDNApp' do
   use_frameworks!
 
   # Pods for DDNApp
+  pod 'IGListKit'
 
   target 'DDNAppTests' do
     inherit! :search_paths
